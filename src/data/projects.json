@@ -1,0 +1,26 @@
+[
+  {
+    "title": "SHOP NOW",
+    "imageSrc": "projects/shop.png",
+    "description": "Developed & managed an e-commerce platform for clothing sales.",
+    "skills": ["MERN Stack", "Context-API", "Bootstrap-5"],
+    "demo": "https://shop-now-ten.vercel.app",
+    "source": "https://github.com/Harshit-Banwal/shopnow-app"
+  },
+  {
+    "title": "TASK MANAGER",
+    "imageSrc": "projects/task.png",
+    "description": "Created a project enabling users to perform CRUD operations on tasks.",
+    "skills": ["MERN Stack", "TailwindCSS", "Redux"],
+    "demo": "https://task-manager-hazel-pi.vercel.app",
+    "source": "https://github.com/Harshit-Banwal/task-manager-app"
+  },
+  {
+    "title": "WEATHER APP",
+    "imageSrc": "projects/weather.png",
+    "description": "Created a Weather App allowing users to check weather by entering city names.",
+    "skills": ["HBS", "Express", "Node"],
+    "demo": "https://weather-app-omega-dun-72.vercel.app/",
+    "source": "https://github.com/Harshit-Banwal/WeatherApp-with-Express"
+  }
+]
