@@ -1,11 +1,35 @@
 [
   {
+    "title": "MoviesInsight",
+    "imageSrc": "projects/movie.png",
+    "description": "Developed a movie blog platform to provide movies recommendation.",
+    "skills": ["MERN Stack", "Redux", "Bootstrap-5"],
+    "demo": "https://movies-blog-five.vercel.app",
+    "source": null
+  },
+  {
+    "title": "CLEAR CLAUSE",
+    "imageSrc": "projects/clause.png",
+    "description": "Developed an AI-based system to highlight employee agreements risks.",
+    "skills": ["Angular", "Spring Boot", "Postgre Sql"],
+    "demo": null,
+    "source": "https://github.com/Harshit-Banwal/clear-clause-app"
+  },
+  {
     "title": "SHOP NOW",
     "imageSrc": "projects/shop.png",
     "description": "Developed & managed an e-commerce platform for clothing sales.",
     "skills": ["MERN Stack", "Context-API", "Bootstrap-5"],
     "demo": "https://shop-now-ten.vercel.app",
     "source": "https://github.com/Harshit-Banwal/shopnow-app"
+  },
+  {
+    "title": "CHIT CHAT",
+    "imageSrc": "projects/chat.png",
+    "description": "Created a real-time chat platform supporting seamless multi-user communication.",
+    "skills": ["MERN Stack", "WebSocket", "Docker"],
+    "demo": null,
+    "source": "https://github.com/Harshit-Banwal/chit-chat-app"
   },
   {
     "title": "TASK MANAGER",

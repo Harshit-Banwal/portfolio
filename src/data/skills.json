@@ -12,6 +12,22 @@
     "imageSrc": "skills/js.png"
   },
   {
+    "title": "Java",
+    "imageSrc": "skills/java.png"
+  },
+  {
+    "title": "Spring Boot",
+    "imageSrc": "skills/spring.png"
+  },
+  {
+    "title": "Angular",
+    "imageSrc": "skills/angular.png"
+  },
+  {
+    "title": "PostgreSQL",
+    "imageSrc": "skills/postgre.png"
+  },
+  {
     "title": "React",
     "imageSrc": "skills/react.png"
   },
@@ -24,18 +40,6 @@
     "imageSrc": "skills/mongodb.png"
   },
   {
-    "title": "Java",
-    "imageSrc": "skills/java.png"
-  },
-  {
-    "title": "Spring Boot",
-    "imageSrc": "skills/spring.png"
-  },
-  {
-    "title": "PHP",
-    "imageSrc": "skills/php.png"
-  },
-  {
     "title": "MySQL",
     "imageSrc": "skills/sql.png"
   },
@@ -46,5 +50,25 @@
   {
     "title": "TailwindCSS",
     "imageSrc": "skills/tailwind.png"
+  },
+  {
+    "title": "Git",
+    "imageSrc": "skills/git.png"
+  },
+  {
+    "title": "Docker",
+    "imageSrc": "skills/docker.png"
+  },
+  {
+    "title": "Gerrit",
+    "imageSrc": "skills/gerrit.png"
+  },
+  {
+    "title": "Postman",
+    "imageSrc": "skills/postman.png"
+  },
+  {
+    "title": "Swagger",
+    "imageSrc": "skills/swagger.png"
   }
 ]

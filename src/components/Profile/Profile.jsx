@@ -9,8 +9,8 @@ export const Profile = () => {
       <div className={styles.content}>
         <h1 className={styles.title}>Hi, I'm Harshit</h1>
         <p className={styles.description}>
-          Motivated and enthusiastic MERN full stack MERN developer with a
-          strong understanding of front-end and back-end technologies.
+          Product Engineer skilled in Java, Spring Boot, and MERN stack, focused
+          on building scalable, high-performance applications.
         </p>
         <a
           href="mailto:harshitbanwal849@gmail.com"
