@@ -1,7 +1,7 @@
-import React from 'react';
+import React from "react";
 
-import styles from './About.module.css';
-import { getImageUrl } from '../../utils';
+import styles from "./About.module.css";
+import { getImageUrl } from "../../utils";
 
 export const About = () => {
   return (
@@ -9,17 +9,23 @@ export const About = () => {
       <h2 className={styles.title}>About</h2>
       <div className={styles.content}>
         <p className={styles.aboutIntro}>
-          Hello! I'm Harshit Banwal, a passionate Full Stack Web Developer based
-          in Ambala, Haryana.
-          <br />I specialize in creating dynamic and responsive websites and
-          applications.
+          Hello! I'm Harshit Banwal, a System Engineer at Tata Consultancy
+          Services, currently based in Gurugram, Haryana.
           <br />
-          I'm an avid movie enthusiast and music is another passion of mine.
+          I build scalable backend systems and full-stack applications, with a
+          strong focus on Java, Spring Boot, Microservices, Kafka, PostgreSQL,
+          Angular, and React.
+          <br />
+          Alongside my professional work, I enjoy building AI-powered
+          applications and exploring RAG, LLMs, and Vector Search.
+          <br />
+          When I'm not coding, you'll usually find me watching movies or
+          listening to music.
         </p>
 
         <ul className={styles.aboutItems}>
           <li className={styles.aboutItem}>
-            <img src={getImageUrl('about/graduate.png')} alt="Graduate icon" />
+            <img src={getImageUrl("about/graduate.png")} alt="Graduate icon" />
             <div className={styles.aboutItemText}>
               <h3>B.E | CSE</h3>
               <p>Chandigarh University | 2020-24</p>
@@ -27,7 +33,7 @@ export const About = () => {
             </div>
           </li>
           <li className={styles.aboutItem}>
-            <img src={getImageUrl('about/school.png')} alt="School icon" />
+            <img src={getImageUrl("about/school.png")} alt="School icon" />
             <div className={styles.aboutItemText}>
               <h3>XII(Science) | CBSE</h3>
               <p>S.M.S Public School | 2019-20</p>
@@ -35,7 +41,7 @@ export const About = () => {
             </div>
           </li>
           <li className={styles.aboutItem}>
-            <img src={getImageUrl('about/school.png')} alt="School icon" />
+            <img src={getImageUrl("about/school.png")} alt="School icon" />
             <div className={styles.aboutItemText}>
               <h3>X | CBSE</h3>
               <p>S.M.S Public School | 2017-18</p>

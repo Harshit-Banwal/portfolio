@@ -4,38 +4,62 @@
   color: var(--color-text);
   margin-top: 120px;
   background-color: var(--color-secondary);
+
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  width: 100vw;
+  align-items: center;
+
+  width: 100%;
+  box-sizing: border-box;
+
   padding: 58px 10%;
-  gap: 10px;
+  gap: 40px;
+}
+
+.text {
+  min-width: 0;
 }
 
 .text h2 {
   font-size: 80px;
   font-weight: 700;
   letter-spacing: 4px;
+  margin: 0;
 }
 
 .text p {
   font-size: 40px;
   font-weight: 400;
   letter-spacing: 2px;
+  margin: 10px 0 0;
 }
 
 .links {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
   list-style: none;
   gap: 26px;
+
+  margin: 0;
+  padding: 0;
+  min-width: 0;
 }
 
 .link {
   display: flex;
   align-items: center;
   gap: 25px;
+
+  min-width: 0;
+  max-width: 100%;
+}
+
+.link img {
+  width: 32px;
+  height: 32px;
+  flex-shrink: 0;
 }
 
 .link a {
@@ -44,21 +68,120 @@
   font-size: 30px;
   font-weight: 400;
   letter-spacing: 1.5px;
+
+  min-width: 0;
+
+  /* Important for long email/URLs */
+  overflow-wrap: anywhere;
+  word-break: break-word;
 }
 
+/* Tablet */
 @media screen and (max-width: 830px) {
   .container {
     flex-direction: column;
-    gap: 23px;
+    align-items: center;
+    gap: 35px;
+
+    padding: 50px 8%;
   }
 
-  .text {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  .text h2 {
+    font-size: 60px;
+  }
+
+  .text p {
+    font-size: 30px;
   }
 
   .links {
     align-items: center;
+    width: 100%;
+    max-width: 500px;
+  }
+
+  .link a {
+    font-size: 24px;
+  }
+}
+
+/* Mobile */
+@media screen and (max-width: 550px) {
+  .container {
+    width: 100%;
+    padding: 40px 25px;
+    margin-top: 80px;
+
+    align-items: stretch;
+    gap: 30px;
+  }
+
+  .text {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .text h2 {
+    font-size: 48px;
+    letter-spacing: 2px;
+  }
+
+  .text p {
+    font-size: 25px;
+    letter-spacing: 1px;
+  }
+
+  .links {
+    width: 100%;
+    gap: 22px;
+  }
+
+  .link {
+    width: 100%;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .link img {
+    width: 28px;
+    height: 28px;
+  }
+
+  .link a {
+    font-size: 19px;
+    letter-spacing: 0.5px;
+
+    overflow-wrap: anywhere;
+    word-break: break-word;
+  }
+}
+
+/* Very small phones */
+@media screen and (max-width: 380px) {
+  .container {
+    padding: 35px 18px;
+  }
+
+  .text h2 {
+    font-size: 42px;
+  }
+
+  .text p {
+    font-size: 22px;
+  }
+
+  .link {
+    gap: 12px;
+  }
+
+  .link a {
+    font-size: 17px;
+  }
+
+  .link img {
+    width: 25px;
+    height: 25px;
   }
 }

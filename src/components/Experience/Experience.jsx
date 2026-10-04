@@ -1,6 +1,6 @@
-import React from 'react';
-import styles from './Experience.module.css';
-import { getImageUrl } from '../../utils';
+import React from "react";
+import styles from "./Experience.module.css";
+import { getImageUrl } from "../../utils";
 
 export const Experience = () => {
   return (
@@ -11,7 +11,7 @@ export const Experience = () => {
         <ul className={styles.experienceItems}>
           <li className={styles.experienceItem}>
             <img
-              src={getImageUrl('experience/company.png')}
+              src={getImageUrl("experience/company.png")}
               alt="Company icon"
             />
             <div className={styles.experienceItemText}>
@@ -20,27 +20,43 @@ export const Experience = () => {
 
               <ul className={styles.points}>
                 <li>
-                  Designed and developed 8+ RESTful APIs using Spring Boot for
-                  scalable CRUD operations.
+                  Designed and built a new microservice from scratch, including
+                  16+ RESTful APIs using Spring Data JPA and PostgreSQL for the
+                  TCS BaNCS Corporate Actions platform, implementing CRUD
+                  workflows with request validation, centralized exception
+                  handling, and standardized error responses.
                 </li>
                 <li>
-                  Improved API reliability by implementing validation and
-                  centralized error handling (↓ issues by ~30%).
+                  Architected and implemented a distributed, event-driven Kafka
+                  pipeline to stream and synchronize transactional data across
+                  two independently deployed systems, validating end-to-end data
+                  consistency between source and destination to ensure realtime
+                  synchronization.
                 </li>
                 <li>
-                  Contributed to Angular 13 → 17 migration for better
-                  performance and compatibility.
+                  Owned and evolved an existing microservice, reworking 30–40%
+                  of REST APIs while adding new endpoints, validations, and
+                  businesslogic; wrote JUnit/Mockito unit tests and validated
+                  APIs using Swagger before QA handoff.
                 </li>
                 <li>
-                  Built data pipelines ensuring 99.9% data accuracy during
-                  high-volume transactions.
+                  •Resolved 100+ defects acrossthe stack,spanning Angular
+                  (component logic, template bindings,service integrations) and
+                  Spring Boot (REST APIs, Kafka pipelines, PostgreSQL), in
+                  coordination with the QA team to improve reliability and data
+                  consistency.
                 </li>
                 <li>
-                  Resolved 25+ UI bugs and collaborated with QA for stable
-                  releases.
+                  Contributed to a large-scale Angular 13→17 migration,
+                  refactoring componentsto adopt modern control-flow syntax
+                  (@if, @for, @switch), Angular Signals, and updated RxJS
+                  patterns while maintaining existing functionality.
                 </li>
                 <li>
-                  Managed CI/CD workflows using Gerrit for smooth deployments.
+                  Contributed to Gerrit-based code review and CI/CD workflows
+                  within an Agile/Scrum delivery model, pushing code changesfor
+                  peer review and contributing to 3 production releases while
+                  meeting sprint delivery timelines.
                 </li>
               </ul>
             </div>

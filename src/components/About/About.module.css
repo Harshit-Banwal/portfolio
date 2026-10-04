@@ -29,7 +29,7 @@
   color: var(--color-text);
   font-family: var(--font-roboto);
   font-size: 28px;
-  width: 35%;
+  width: 55%;
 }
 
 .aboutItems {
@@ -46,9 +46,11 @@
   border-radius: 20px;
   list-style: none;
   padding: 25px;
-  background-image: linear-gradient(90deg,
-      rgba(165, 215, 232, 0.42) 0%,
-      rgba(255, 255, 255, 0) 100%);
+  background-image: linear-gradient(
+    90deg,
+    rgba(165, 215, 232, 0.42) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
   background-size: 0 100%;
   background-repeat: no-repeat;
   transition: 0.4s;
