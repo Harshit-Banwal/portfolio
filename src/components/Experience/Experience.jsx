@@ -20,43 +20,55 @@ export const Experience = () => {
 
               <ul className={styles.points}>
                 <li>
-                  Designed and built a new microservice from scratch, including
-                  16+ RESTful APIs using Spring Data JPA and PostgreSQL for the
-                  TCS BaNCS Corporate Actions platform, implementing CRUD
-                  workflows with request validation, centralized exception
-                  handling, and standardized error responses.
+                  Designed and built a new Spring Boot microservice from scratch
+                  for the TCS BaNCS Corporate Actions platform (dividends,
+                  splits, and other securities events), delivering 16+ REST APIs
+                  with Spring Data JPA and PostgreSQL, including header and
+                  input validation, pagination, centralized exception handling,
+                  standardized error responses, and OpenAPI/Swagger
+                  documentation.
                 </li>
+
                 <li>
-                  Architected and implemented a distributed, event-driven Kafka
-                  pipeline to stream and synchronize transactional data across
-                  two independently deployed systems, validating end-to-end data
-                  consistency between source and destination to ensure realtime
-                  synchronization.
+                  Applied transaction management (@Transactional), idempotent
+                  request handling, and Redis caching to keep API behavior
+                  consistent and performant.
                 </li>
+
                 <li>
-                  Owned and evolved an existing microservice, reworking 30–40%
-                  of REST APIs while adding new endpoints, validations, and
-                  businesslogic; wrote JUnit/Mockito unit tests and validated
-                  APIs using Swagger before QA handoff.
+                  Architected and implemented an event-driven Kafka pipeline to
+                  synchronize transactional data between two independently
+                  deployed systems, with end-to-end consistency validation
+                  between source and destination.
                 </li>
+
                 <li>
-                  •Resolved 100+ defects acrossthe stack,spanning Angular
-                  (component logic, template bindings,service integrations) and
-                  Spring Boot (REST APIs, Kafka pipelines, PostgreSQL), in
-                  coordination with the QA team to improve reliability and data
-                  consistency.
+                  Owned and evolved an existing microservice across
+                  client-feedback sprint cycles, reworking 30–40% of its REST
+                  APIs and adding new endpoints, validations, and business logic
+                  as requirements changed.
                 </li>
+
                 <li>
-                  Contributed to a large-scale Angular 13→17 migration,
-                  refactoring componentsto adopt modern control-flow syntax
-                  (@if, @for, @switch), Angular Signals, and updated RxJS
-                  patterns while maintaining existing functionality.
+                  Wrote data-driven JUnit/Mockito tests that validate multiple
+                  DB-defined business rules in a single run, replacing manual
+                  request-body changes. Ran regression checks in the deployment
+                  environment and validated APIs via Swagger before QA handoff,
+                  contributing to a decline in defects reaching QA.
                 </li>
+
                 <li>
-                  Contributed to Gerrit-based code review and CI/CD workflows
-                  within an Agile/Scrum delivery model, pushing code changesfor
-                  peer review and contributing to 3 production releases while
-                  meeting sprint delivery timelines.
+                  Contributed to an Angular 13→17 migration, refactoring
+                  components to the new control-flow syntax (@if, @for,
+                  @switch), Angular Signals, and updated RxJS patterns without
+                  regressions.
+                </li>
+
+                <li>
+                  Resolved 100+ defects across Angular and Spring Boot (REST
+                  APIs, Kafka pipelines, PostgreSQL), using deployment logs for
+                  root-cause analysis in coordination with the QA team, within
+                  Gerrit-based peer review and Agile/Scrum delivery.
                 </li>
               </ul>
             </div>
